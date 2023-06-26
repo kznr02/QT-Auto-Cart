@@ -1,0 +1,62 @@
+QWidget {
+    background: #FFFFFF;
+    border: none;
+}
+QPushButton:enabled {
+    background-color: #C2C2C2;
+    border-radius: 6px;
+}
+QPushButton:hover {
+    background-color: #818181;
+    border-radius: 6px;
+}
+QPushButton:pressed {
+    background-color: #818181;
+    border-radius: 6px;
+}
+
+QLabel#adLabel {
+    background: #C2C2C2;
+    border: 3px solid #979797;
+    border-radius: 6px;
+}
+
+QFrame#leftFrame {
+    background: #dedede;
+    border: none;
+    border-radius: 20px
+}
+QFrame#rightFrame {
+    background: #dedede;
+    border: none;
+    border-radius: 20px
+}
+QLabel#totalLabel {
+    background: #F1F1F1;
+    border: 3px solid #666666;
+    border-radius: 6px
+}
+QLabel#titleLabel {
+    background: #F1F1F1;
+    border: 3px solid #767676;
+    border-radius: 6px;
+}
+
+QLabel#photoLable {
+    background: #C2C2C2;
+    border: 3px solid #767676;
+}
+QFrame#photoFrame {
+    background: #C2C2C2;
+    border: 3px solid #767676;
+}
+
+
+QLabel#redLabel {
+    color: red;
+}
+
+QLabel#blueLabel {
+    color: blue;
+}
+
